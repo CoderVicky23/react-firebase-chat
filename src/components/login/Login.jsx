@@ -20,9 +20,9 @@ const Login = () => {
 
     const handleLogin = e => {
         e.preventDefault();
-        // toast.warn("Hello", {
-        //     position: "bottom-center"
-        // });
+        toast.warn("Hello", {
+            position: "bottom-center"
+        });
     }
 
     return <div className="login">
